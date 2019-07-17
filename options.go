@@ -1,7 +1,8 @@
 package bimg
 
 /*
-#cgo pkg-config: vips
+#cgo pkg-config: --static vips
+#cgo LDFLAGS: -static
 #include "vips/vips.h"
 */
 import "C"
